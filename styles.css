@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(/Resources/Clear.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.mainContainer {
+    background-image: linear-gradient(#879AF2, #D3208B, #FDA000);
+    text-align: center;
+    margin-top: 200px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    margin-left: 30%;
+}
+
+.mainContainer .cityName {
+    width: 80%;
+    background-image: linear-gradient(#2F80ED, #B2FFDA);
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.cityDetails {
+    padding: 10px;
+}
+
+.cityDetails #name {
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.cityDetails #date {
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content .temp {
+    font-size: 3.5rem;
+    background-image: linear-gradient(#2F80ED, #B2FFDA);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: 1000;
+}
+
+.content .minMax {
+    padding: 20px;
+    font-size: 1.7rem;
+}
+
+.content .currentWeather {
+    padding: 20px;
+    font-size: 1.9rem;
+}
+
+.content .weatherImage {
+    font-size: 3.5rem;
+}
